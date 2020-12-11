@@ -32,7 +32,6 @@ namespace AdvantOfCodeDay3
             resultado *= CalculateEncounteredTrees(matrix, 7, 1);
             resultado *= CalculateEncounteredTrees(matrix, 1, 2);
             Console.WriteLine(resultado);
-            //Part2(convertedInput);
         }
 
         private static int CalculateEncounteredTrees(char[,] matrix, int right, int down)
